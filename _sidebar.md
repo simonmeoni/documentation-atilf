@@ -1,3 +1,4 @@
+- [**Home**](README.md)
 - **CoReA2D**
     - [Corea2d Corpus](CoReA2D/corea2dCorpus.md)
     - [Corea2d Resource Indexer](CoReA2D/corea2dResourceIndexer.md)
@@ -5,7 +6,6 @@
     - [Corea2d Test Campaign](CoReA2D/corea2dTestCampaign.md)
     - [Curation CSV](CoReA2D/curationCsv.md)
     - [LST converter](CoReA2D/lstConverter.md)
-    - [Report Curation `.ann`](CoReA2D/reportCurationAnn.md)
     - [RLF to Brat](CoReA2D/rlfToBrat.md)
 - **TermITH**
     - [StdfSpec](TermITH/stdfSpec.md)
