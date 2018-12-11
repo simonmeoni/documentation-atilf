@@ -14,3 +14,6 @@ le frontend (algorithme présent dans le fichier `methods/graph.js`)
 - ELASTIC_DEMONETTE : url de la base Elastic
 - URL_ROOT_PATH : racine de l'application web
 - PREFIX : (Cyril ?)
+
+## Lien vers le projet
+[https://git.atilf.fr/demonette/demonette-backend](https://git.atilf.fr/demonette/demonette-backend)
