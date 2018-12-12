@@ -13,7 +13,7 @@
     - [TermITH-java](TermITH/termithJava.md)
     - [TermITH-resource](TermITH/termithResources.md)
     - [TermITH-tool](TermITH/termithTool.md)
-    - [tt4j](TermITH/tt4j.md)
+    - [TermITH-format](TermITH/termithFormat.md)
     - [xlo](TermITH/xlo.md)
 - **Démonette**
     - [Démonette](Démonette/demonette.md)
@@ -21,7 +21,6 @@
     - [Démonette Backend](Démonette/demonette-backend.md)
     - [Démonette Injector](Démonette/demonette-injector.md)
 - **LST/Phraséo**
-    - [Lst Syntita Fix](LstPhraseo/lstSyntitaFix.md)
     - [lexique Phraseo Serializer](LstPhraseo/lexiquePhraseoSerializer.md)
     - [create Phraseo Lst Db](LstPhraseo/createPhraseoLstDb.md)
 - **SalKC**
@@ -32,5 +31,4 @@
 - **Corpus**
     - [Dela/TLFi](Corpus/delaTlfi.md)
     - [Istex](Corpus/istexCorpus.md)
-    - [Pub2Tei](Corpus/Pub2TEI.md)
     - [Scientext](Corpus/scientextCorpus.md)
