@@ -5,25 +5,28 @@
     - [Corea2d Resource Indexer Front](CoReA2D/corea2dResourceIndexerFront.md)
     - [Corea2d Test Campaign](CoReA2D/corea2dTestCampaign.md)
     - [Curation CSV](CoReA2D/curationCsv.md)
-    - [LST converter](CoReA2D/lstConverter.md)
     - [RLF to Brat](CoReA2D/rlfToBrat.md)
 - **TermITH**
-    - [StdfSpec](TermITH/stdfSpec.md)
     - [Terminology](TermITH/terminology.md)
     - [TermITH-java](TermITH/termithJava.md)
     - [TermITH-resource](TermITH/termithResources.md)
     - [TermITH-tool](TermITH/termithTool.md)
     - [TermITH-format](TermITH/termithFormat.md)
-    - [xlo](TermITH/xlo.md)
 - **Démonette**
     - [Démonette](Démonette/demonette.md)
     - [Démonette Frontend](Démonette/demonette-frontend.md)
     - [Démonette Backend](Démonette/demonette-backend.md)
     - [Démonette Injector](Démonette/demonette-injector.md)
-- **LST/Phraséo**
-    - [lexique Phraseo Serializer](LstPhraseo/lexiquePhraseoSerializer.md)
-    - [create Phraseo Lst Db](LstPhraseo/createPhraseoLstDb.md)
-- **Corpus**
+- **Autres corpus**
     - [Dela/TLFi](Corpus/delaTlfi.md)
     - [Istex](Corpus/istexCorpus.md)
     - [Scientext](Corpus/scientextCorpus.md)
+- **Format Pivot**
+    - [Dela/TLFi](Corpus/delaTlfi.md)
+    - [StdfSpec](TermITH/stdfSpec.md)
+    - [xlo](TermITH/xlo.md)
+- **Lexique**
+    - [LST converter](CoReA2D/lstConverter.md)
+    - [lexique Phraseo Serializer](LstPhraseo/lexiquePhraseoSerializer.md)
+    - [create Phraseo Lst Db](LstPhraseo/createPhraseoLstDb.md)
+
