@@ -1,20 +1,26 @@
 ## Généralités
-Termith-java est une chaîne de traitement qui extrait et désambiguise la terminologie de corpus au format tei/xml. A la fin du traitements les fichiers du corpus sont enrichis par différents types d'annotations au format standOff injecter dans les fichiers tei/xml du corpus.
-Cette application est développée dans le cadre du projet ISTEX, elle doit être assez performante pour traiter des corpus volumineux (+ de 10000 fichiers).
+Termith-java est une chaîne de traitement qui permet de réaliser deux traitements en lien avec le projet termITH : 
+- une procédure d'enrichissement sur des fichier au format pivot qui les enrichis de quatres couches d'annotations : 
+    - une couche morpho-syntaxique 
+    - une couche terminologique 
+    - une couche phraséologique 
+    - une couche transdisciplinaire 
 
+- une procédure de désambiguisation qui permet, à l'aide d'un apprentissage préalable (avec un corpus annoté manuellement), de désambiguiser terminologiqument un corpus d'évaluation.  
 ## Dépendances
 - java 8 (les dépendance sont dans le `.gradle`)
 - R
 - TreeTagger
+
 - Termith-ressource
 ## I/O
 ### Pour le module d'enrichissement
-- Entrée : des fichiers xml/tei sans couche d'annotation
-- Sorties : des fichiers xml/tei avec couche d'annotation au format standOff
+- Entrée : des fichiers au [format pivot](TermITH/stdfSpec.md) sans couche d'annotation
+- Sorties : des fichiers au [format pivot](TermITH/stdfSpec.md) avec couche d'annotation au format standOff
 
 ### Pour le module de désambiguisation
 - Entrée : 
-    - des fichiers xml/tei enrichis avec un éléments standOff de type 'candidatsTermes' annotés manuellement pour le corpus d'apprentissage :
+    - des fichiers au [format pivot](TermITH/stdfSpec.md) enrichis avec un éléments standOff de type 'candidatsTermes' annotés manuellement pour le corpus d'apprentissage :
         ```xml
       <ns:standOff type="candidatsTermes">
         <teiHeader>
@@ -64,7 +70,7 @@ Cette application est développée dans le cadre du projet ISTEX, elle doit êtr
         </ns:listAnnotation>
       </ns:standOff>
        ``` 
-    - des fichiers xml/tei enrichis avec un éléments standOff de type 'candidatsTermes' pour le corpus d'évaluation :
+    - des fichiers au [format pivot](TermITH/stdfSpec.md) enrichis avec un éléments standOff de type 'candidatsTermes' pour le corpus d'évaluation :
         ```xml
       <ns:standOff type="candidatsTermes">
         <teiHeader>
@@ -114,7 +120,7 @@ Cette application est développée dans le cadre du projet ISTEX, elle doit êtr
         </ns:listAnnotation>
       </ns:standOff>
        ``` 
-- Sorties : des fichiers xml/tei avec couche d'annotation au format standOff annoté automatiquement :
+- Sorties : des fichiers au [format pivot](TermITH/stdfSpec.md) avec couche d'annotation au format standOff annoté automatiquement :
     ```xml
   <!-- un exemple d'extraction terminologique -->
       <ns:standOff type="candidatsTermes">

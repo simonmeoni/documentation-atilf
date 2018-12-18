@@ -7,7 +7,7 @@ L'application RLF to Brat permet de convertir les exemples du RLF pour un vocabl
 
 ## I/O
 
-- Entrées : la base du RLF au format `csv`
+- Entrées : la base du RLF au format du [dépôt ortolang](https://www.ortolang.fr/market/lexicons/lexical-system-fr) (c'est un ensemble de feuilles CSV)
 - Sorties : Deux dossiers :
     1. un dossier contenant les exemples déjà annotés du RLF contenant les `.ann`, les `.txt` et le schéma d'annotation généré automatiquement (`.conf`)
     1. un dossier contenant les exemples à annoter du RLF contenant les `.ann`, les `.txt` et le schéma d'annotation généré automatiquement  (`.conf`)

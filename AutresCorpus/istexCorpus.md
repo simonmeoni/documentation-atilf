@@ -1,6 +1,6 @@
 ## Généralité
 
-Ce corpus est un sous-corpus d'ISTEX sur le thème du vieillissement, il regroupe 8807 fichiers sur ce thème. Ils sont au formats TEI/XML
+Ce corpus est un sous-corpus d'ISTEX sur le thème du vieillissement, il regroupe 8807 fichiers sur ce thème. Ils sont aux [format pivot](TermITH/stdfSpec.md)
 
 ## Arborescence
 Voici les plusieurs dossiers du projet et ce qu'il contient : 

@@ -6,7 +6,7 @@ Les feuilles XSL sont dans le dossiers `xsl/`
 - XSLT 2.0
 
 ## I/O
-- Entrées et Sorties: du XML/TEI 
+- Entrées et Sorties: fichiers aux [format pivot](TermITH/stdfSpec.md)
 
 ## Liens vers le projet
 [https://git.atilf.fr/termith/Termith-format](https://git.atilf.fr/termith/Termith-format)

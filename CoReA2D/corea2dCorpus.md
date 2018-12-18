@@ -1,5 +1,5 @@
 ## Généralité
-Corea2d corpus est un programme permettant de convertir un corpus TEI/XML en corpus à annoter pour les logiciels d'annotations Brat, Glozz, Gate   
+Corea2d corpus est un programme permettant de convertir un corpus au [format pivot](TermITH/stdfSpec.md) en corpus à annoter pour les logiciels d'annotations Brat, Glozz, Gate   
 
 ## Dépendance et Langage utilisé
 - Python 3.6
@@ -7,7 +7,7 @@ Corea2d corpus est un programme permettant de convertir un corpus TEI/XML en cor
 
 ## I/O
 
-- Entrées : des fichiers XML/TEI
+- Entrées : des fichiers [format pivot](TermITH/stdfSpec.md)
 - Sorties : les fichiers de sortie sont relatifs aux logiciels cibles : 
     1. brat : des fichiers `.ann` et `.txt`
     2. glozz : des fichiers `.aa`  et `.ac`

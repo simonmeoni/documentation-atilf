@@ -7,7 +7,7 @@ le LINA, le LORIA et l'ATILF. L'ensemble des scripts ne sont pas très réutilis
 
 ## I/O
 
-- Entrées : des fichiers XML au format à peu près au format TEI 
+- Entrées : des fichiers XML à peu près au [format pivot](TermITH/stdfSpec.md)
 - Sorties : trois fichier `csv` qui décrivent l'ensemble des expérimentations effectués (Rappel, Précisions, F-mesure) par les trois méthodes des trois labo
 
 ## Docker

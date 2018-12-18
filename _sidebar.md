@@ -2,7 +2,6 @@
 - **CoReA2D**
     - [Corea2d Corpus](CoReA2D/corea2dCorpus.md)
     - [Corea2d Resource Indexer](CoReA2D/corea2dResourceIndexer.md)
-    - [Corea2d Resource Indexer Front](CoReA2D/corea2dResourceIndexerFront.md)
     - [Corea2d Test Campaign](CoReA2D/corea2dTestCampaign.md)
     - [Curation CSV](CoReA2D/curationCsv.md)
     - [RLF to Brat](CoReA2D/rlfToBrat.md)
@@ -18,15 +17,14 @@
     - [Démonette Backend](Démonette/demonette-backend.md)
     - [Démonette Injector](Démonette/demonette-injector.md)
 - **Autres corpus**
-    - [Dela/TLFi](Corpus/delaTlfi.md)
-    - [Istex](Corpus/istexCorpus.md)
-    - [Scientext](Corpus/scientextCorpus.md)
+    - [Istex](AutresCorpus/istexCorpus.md)
+    - [Scientext](AutresCorpus/scientextCorpus.md)
 - **Format Pivot**
-    - [Dela/TLFi](Corpus/delaTlfi.md)
-    - [StdfSpec](TermITH/stdfSpec.md)
-    - [xlo](TermITH/xlo.md)
+    - [StdfSpec](FormatPivot/stdfSpec.md)
+    - [xlo](FormatPivot/xlo.md)
 - **Lexique**
-    - [LST converter](CoReA2D/lstConverter.md)
-    - [lexique Phraseo Serializer](LstPhraseo/lexiquePhraseoSerializer.md)
-    - [create Phraseo Lst Db](LstPhraseo/createPhraseoLstDb.md)
+    - [Dela/TLFi](Lexique/delaTlfi.md)
+    - [LST converter](Lexique/lstConverter.md)
+    - [lexique Phraseo Serializer](Lexique/lexiquePhraseoSerializer.md)
+    - [create Phraseo Lst Db](Lexique/createPhraseoLstDb.md)
 
